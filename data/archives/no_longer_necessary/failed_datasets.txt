@@ -1,0 +1,3 @@
+['GENDER_EDU', 'FISH_NLD', 'DW_D', 'DW_I', 'TES3']
+
+All of the following when paired with the base link (to return params) returned errors

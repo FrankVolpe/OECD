@@ -1,0 +1,86 @@
+####################################################################################
+## The following dataset IDs were not pulled because of a timeout or other error: ##
+####################################################################################
+
+Title: Prices: Consumer prices, archive (Edition 2018)
+
+  Routes to: https://www.oecd-ilibrary.org/economics/data/main-economic-indicators/price-indices_data-00047-en
+
+  Replaced by:
+
+      Title: Consumer prices
+      Overview Page: https://www.oecd-ilibrary.org/economics/data/prices/consumer-prices-complete-database_0f2e8000-en
+      Dataset ID: PRICES_CPI
+
+##############################################################################################################
+
+Title: Prices: Consumer prices: national weights
+
+  Routes to: https://www.oecd-ilibrary.org/economics/data/prices/consumer-prices-national-weights_data-00537-en
+
+  Replaced by Consumer Prices, same as above.
+
+##############################################################################################################
+
+Title: Benchmark definition, 4th edition (BMD4): Foreign direct investment: positions, main aggregates
+
+  Routes to: https://www.oecd-ilibrary.org/finance-and-investment/data/benchmark-definition-4th-edition-bmd4/foreign-direct-investment-positions-main-aggregates_data-00746-en
+
+  This was not replaced, rather a Timeout most likely caused it to end up on this list
+
+      Dataset ID: FDI_POS_AGGR
+
+##############################################################################################################
+
+Title: Education at a glance: ISCED-97, Access to education, participation and progression
+
+  Routes to: https://www.oecd-ilibrary.org/education/data/education-at-a-glance/access-to-education-participation-and-progression_data-00751-en
+
+  Replaced by:
+
+    Title: Education at a glance: ISCED-97, Access to education, participation and progression (Edition 2014)
+    Overview Page: https://www.oecd-ilibrary.org/education/data/education-at-a-glance/education-at-a-glance-isced-97-access-to-education-participation-and-progression-edition-2014_4d2fa57f-en
+    Dataset ID: CHAPTER_C_EAG2014
+
+##############################################################################################################
+
+Title: Education at a glance: ISCED-97, Education and learning outputs and outcomes
+
+  Routes to: https://www.oecd-ilibrary.org/education/data/education-at-a-glance/education-and-learning-outputs-and-outcomes_data-00749-en
+
+  Replaced by:
+
+      Title: Education at a glance: ISCED-97, Education and learning outputs and outcomes (Edition 2014)
+      Overview Page: https://www.oecd-ilibrary.org/education/data/education-at-a-glance/education-at-a-glance-isced-97-education-and-learning-outputs-and-outcomes-edition-2014_88d7d060-en
+      Dataset ID: CHAPTER_A_EAG2014_NEW
+
+##############################################################################################################
+
+Title: Education at a glance: ISCED-97, Financial and human resources investment in education
+
+  Routes to: https://www.oecd-ilibrary.org/education/data/education-at-a-glance/financial-and-human-resources-investment-in-education_data-00750-en
+
+  Replaced by:
+
+    Title: Education at a glance: ISCED-97, Financial and human resources investment in education (Edition 2014)
+    Overview Page: https://www.oecd-ilibrary.org/education/data/oecd-education-statistics/education-at-a-glance-isced-97-financial-and-human-resources-investment-in-education-edition-2014_b83bcb12-en
+    Dataset ID: CHAPTER_B_EAG2014
+
+##############################################################################################################
+
+Title: Social Expenditure: Reference series
+
+  Produced a dead link, but the link under it (of this datasets database) led to
+  3 indicators not in original search results. They are as follows:
+
+    Title: Income Distribution
+    Overview Page: https://www.oecd-ilibrary.org/social-issues-migration-health/data/oecd-social-and-welfare-statistics/income-distribution_data-00654-en?parentId=http%3A%2F%2Finstance.metastore.ingenta.com%2Fcontent%2Fcollection%2Fsocx-data-en
+    Dataset ID: IDD
+
+    Title: Taxes and Benefits
+    Overview Page: https://www.oecd-ilibrary.org/social-issues-migration-health/data/oecd-social-expenditure-statistics/taxes-and-benefits_data-00201-en?parentId=http%3A%2F%2Finstance.metastore.ingenta.com%2Fcontent%2Fcollection%2Fsocx-data-en
+    Dataset ID: FIXINCLSA
+
+    Title: Taxes and benefits - indicators
+    Overview Page: https://www.oecd-ilibrary.org/social-issues-migration-health/data/oecd-social-and-welfare-statistics/taxes-and-benefits-indicators_c6672284-en?parentId=http%3A%2F%2Finstance.metastore.ingenta.com%2Fcontent%2Fcollection%2Fsocx-data-en
+    Dataset ID: TAXBEN

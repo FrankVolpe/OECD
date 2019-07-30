@@ -1,4 +1,4 @@
-# Utilizing the OECD API in Python
+# Navigating the OECD API in iPython
 
 ## How to use
 

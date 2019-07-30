@@ -9,24 +9,23 @@
 
     * Use dataset_ids file to locate the dataset you wish to load
 
-    * Pull data in (raw-ish) dictionary format:
+  * Pull data in (raw-ish) dictionary format:
       * Raw-ish because the data is decoded, but not formatted in the most
         user-friendly way
       * Use the return_data() function
         * input: string, Dataset ID
 
-    * Pull data in Pandas DataFrame format
-      * Use the save_in_pandas() function
-        * input: string, Dataset ID
-        * output: dict, in the following format:
-          * {Country : {Indicator : {Additional Criteria (If applicable) : pd.DataFrame}}}
-          * If no additional criteria applies, the value corresponding to the indicator is
-            a pd.DataFrame as opposed to a dictionary
+  * Pull data in Pandas DataFrame format
+    * Use the save_in_pandas() function
+      * input: string, Dataset ID
+      * output: dict, in the following format
+        * {Country : {Indicator : {Additional Criteria (If applicable) : pd.DataFrame}}}
+        * If no additional criteria applies, the value corresponding to the indicator is a pd.DataFrame as opposed to a dictionary
 
-    * LIMITATIONS
-      * OECD API may be omitting datapoints due to calls that are too large
-      * Only works with Dataset IDs that have the 'Country' parameter, if a
-        Dataset ID does not have this parameter, output will be the Dataset ID
+  * LIMITATIONS
+    * OECD API may be omitting datapoints due to calls that are too large
+    * Only works with Dataset IDs that have the 'Country' parameter, if a
+      Dataset ID does not have this parameter, output will be the Dataset ID
 
 ## Capabilities to be added:
 

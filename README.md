@@ -91,9 +91,9 @@ data/dataset\_params.json
    {DATASET_ID : {'title' : TITLE,
                   'params' : {PARAMETER : {'codelist_id' : CODELIST ID,
                                            'required' : BOOLEAN,
-                                          'count' : COUNT,
-                                          'values' : {DESCRIPTION : VALUE,
-                                                      DESCRIPTION : VALUE}}}}}
+                                           'count' : COUNT,
+                                           'values' : {DESCRIPTION : VALUE,
+                                                       DESCRIPTION : VALUE}}}}}
 ```
 
 data/dataset\_ids.json

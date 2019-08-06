@@ -52,22 +52,22 @@ src/navigating\_data.py
   this file gives the tools necessary to assign readability to the parameters
     
 * Create references for the files in question
-    * create\_directory(): Decodes parameters
-    * time\_reference(): Decodes time periods in OECD
+  * create\_directory(): Decodes parameters
+  * time\_reference(): Decodes time periods in OECD
 
 * re\_format\_data(): Translate and re-format the data from raw OECD output
-> Input: raw OECD output
-> Output: decoded OECD output
+  * Input: raw OECD output
+  * Output: decoded OECD output
     
 * translate\_key() assigns attributes based on reference files
-> utilized within re\_format\_data()
+  * utilized within re\_format\_data()
 
 src/calling\_data.py
 
 * The only function necessary at the moment is call\_all\_data()
 
-> Input: Dataset ID
-> Output: Raw OECD data
+  * Input: Dataset ID
+  * Output: Raw OECD data
 
 * Other functions and deprecated code will allow capabilities for more specific API calls. Deprecated code needs to be updated to reflect the change from object oriented programming to native data structures
 
@@ -87,12 +87,14 @@ data/dataset\_params.json
 * Includes all reference data for each dataset
 * Follows the following format:
 
-> {DATASET_ID : {'title' : TITLE,
->               'params' : {PARAMETER : {'codelist_id' : CODELIST ID,
->                                        'required' : BOOLEAN,
->                                        'count' : COUNT,
->                                        'values' : {DESCRIPTION : VALUE,
->                                                    DESCRIPTION : VALUE}}}}}
+```python  
+   {DATASET_ID : {'title' : TITLE,
+                  'params' : {PARAMETER : {'codelist_id' : CODELIST ID,
+                                           'required' : BOOLEAN,
+                                          'count' : COUNT,
+                                          'values' : {DESCRIPTION : VALUE,
+                                                      DESCRIPTION : VALUE}}}}}
+```
 
 data/dataset\_ids.json
 

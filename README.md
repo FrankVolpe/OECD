@@ -49,28 +49,27 @@
   src/navigating\_data.py
     * Raw OECD output uses integers to describe the parameters of data in question
       this file gives the tools necessary to assign readability to the parameters
+	
+    * Creates references for the files in question
+	* create\_directory(): Decodes parameters
+	* time\_reference(): Decodes time periods in OECD
 
-      * Creates references for the files in question
-        * create\_directory()
-          * Decodes parameters
-        * time\_reference()
-          * Decodes time periods in OECD
+    * Translates and re-formats the data from raw OECD output
+	* re\_format\_data()
+        > Input: raw OECD output
+        > Output: decoded OECD output
+	* translate\_key() assigns attributes based on reference files
+        > utilized within re\_format\_data()
 
-      * Translates and re-formats the data from raw OECD output
-        * re\_format\_data()
-          * Input: raw OECD output
-          * Output: decoded OECD output
-        * translate\_key() assigns attributes based on reference files
-          * utilized within re\_format\_data()
-
-  src/calling_data.py
-    * The only function necessary at the moment is call_all_data()
-      * Input: Dataset ID, Output: Raw OECD data
+  src/calling\_data.py
+    * The only function necessary at the moment is call\_all\_data()
+    > Input: Dataset ID
+    > Output: Raw OECD data
     * Other functions and deprecated code will allow capabilities for more
       specific API calls. Deprecated code needs to be updated to reflect the
       change from object oriented programming to native data structures
 
-  src/pull_data.py
+  src/pull\_data.py
     * Contains the two functions shown in the Current Capabilities section above
 
 ### data: Self Explanatory
@@ -79,7 +78,7 @@
     * Includes scraper programs and the files used to create the files necessary for
       the program to run.
 
-  data/dataset_params.json
+  data/dataset\_params.json
     * Includes all reference data for each dataset
     * Follows the following format:
         > {DATASET_ID : {'title' : TITLE,
@@ -89,11 +88,11 @@
         >                                        'values' : {DESCRIPTION : VALUE,
         >                                                    DESCRIPTION : VALUE}}}}}
 
-  data/dataset_ids.json
-    * Abbreviated version of dataset_params.json
-    * {DATASET_ID : TITLE}
+  data/dataset\_ids.json
+    * Abbreviated version of dataset\_params.json
+    * {DATASET\_ID : TITLE}
 
-### for_later_use:
+### for\_later\_use:
   * Files for future capabilities. Will be summarized later on
 
 ## To Do: 
@@ -101,5 +100,5 @@
 1.  Finish storing data in json format
 2.  Create global variables
 3.  Link to SQLite and MongoDB
-4.  Finish the updating_data file
+4.  Finish the updating\_data file
 6.  LABEL, LABEL, LABEL
